@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni&display=swap');
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center;
+    
+ }
+
+@media screen and (max-width: 800px) {
+     header {
+        margin-inline: auto ;
+        letter-spacing: .1rem;
+    }
+      section.section{
+        margin-inline: auto ;
+        letter-spacing: .1rem;
+    }   
+ 
+      
+ }
+
+
+
+header {
+    height: 203px;
+    padding-top: 10%;
+    color: rgb(19, 161, 204);
+    background-color: indianred
+ }
+
+.photo {
+    margin-bottom: 9%;
+    margin-left: 8%;
+    border-radius: 25% 10%;
+    width: 200px;
+    height: 199px;
+    overflow: hidden; 
+ }
+ 
+.des{
+    margin-left: 28%;
+    margin-top: -20%;
+    padding: auto;
+ }  
+ 
+
+h3{
+    color: #1adbd2;
+    font-weight: bold;
+    letter-spacing: .1rem;
+    font-size: 20px;
+ }
+
+.post{
+    color: orange;
+    font-weight: bold;
+    letter-spacing: 3%;
+ }
+
+.section{
+    background-color: bisque;
+    float: right;
+    float: left; 
+    overflow: hidden; 
+    
+ }
+
+ h4{
+    margin-left: 10%;
+    color: #13c3ba;
+    letter-spacing: .1rem;
+    font-size: 18px;
+    text-decoration: underline;
+ }
+
+
+
+.div{
+    margin-left: 10%;
+ }
+
+strong{
+    color: #13c3ba;
+ }
+
+.net{
+    margin-inline: 5%;
+ }
+ .net a{
+    margin-left: 15%;
+ }
+ 
+
+.Basdepage{
+ margin-inline: 5%; 
+}
+
+
+
+td,
+th {
+    border: 1px solid rgb(190, 190, 190);
+    padding: 10px;
+}
+
+td {
+    text-align: center;
+}
+
+th[scope="col"] {
+    background-color: #696969;
+    color: #fff;
+}
+
+th[scope="row"] {
+    background-color: #d7d9f2;
+}
